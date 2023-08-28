@@ -1,9 +1,6 @@
 # C - Binary trees
 
-This was a partner project in which we learned about the details, advantages,
-and disadvantages of using trees as data structures. We learned about how to
-qualify trees as well as how to traverse them. Throughout the project, we
-implemented binary, binary search, AVL, and Max Binary Heap trees.
+The project involved a thorough study of trees as data structures. This encompassed understanding their characteristics, pros and cons, classification, and traversal methods. We practically implemented binary, binary search, AVL, and Max Binary Heap trees during the project.
 
 ## Header File :file_folder:
 
