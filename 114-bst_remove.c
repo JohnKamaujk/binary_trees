@@ -84,7 +84,7 @@ bst_t *recursive_bst_remove(bst_t *root, bst_t *node, int value)
 }
 
 /**
- * bst_remove_custom - Removes a node with a specified value from bst
+ * bst_remove - Removes a node with a specified value from bst
  * @root: A pointer to the root node of the BST.
  * @value: The value to remove from the BST.
  *
