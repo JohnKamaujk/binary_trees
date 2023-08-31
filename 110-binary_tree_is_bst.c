@@ -15,11 +15,9 @@ int validate_bst(const binary_tree_t *node, int min_val, int max_val)
 	{
 		if (node->n < min_val || node->n > max_val)
 			return (0);
+		return (validate_bst(node->left, min_val, node->n - 1) &&
+			validate_bst(node->right, node->n + 1, max_val));
 
-		int left_valid = validate_bst(node->left, min_val, node->n - 1);
-		int right_valid = validate_bst(node->right, node->n + 1, max_val);
-
-		return (left_valid && right_valid);
 	}
 
 	return (1);
